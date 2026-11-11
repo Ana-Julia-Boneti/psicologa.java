@@ -3,74 +3,150 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sophia - Orientação Espiritual & Vocacional</title>
+    <title>Sophia - IA Católica & Galeria de Santos</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700;900&family=Plus+Jakarta+Sans:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
-    <header class="navbar">
-        <div class="logo">
-            <span>┼</span> Sophia IA
+    <!-- Faixa de Boas-Vindas -->
+    <div class="top-banner">
+        <span><em>"Nossa Senhora, Rainha de todos os Santos, rogai por nós!"</em> 🌹</span>
+    </div>
+
+    <header class="header">
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <span class="sacred-cross">✠</span>
+            <h1>SOPHIA IA CATÓLICA</h1>
+            <p>Discernimento Vocacional • Devoção aos Santos • Acolhimento Espiritual</p>
         </div>
-        <nav>
-            <a href="#inicio">Início</a>
-            <a href="#recursos">Recursos</a>
-            <a href="#chat">Conversar</a>
-        </nav>
     </header>
 
-    <section id="inicio" class="hero">
-        <div class="hero-content">
-            <h1>Acolhimento Humano e Direção Espiritual com IA</h1>
-            <p>Descubra sua vocação, conecte-se com a vida dos santos e encontre forças para superar momentos de frieza espiritual à luz da fé católica.</p>
-            <a href="#chat" class="btn-primary">Iniciar Orientação</a>
-        </div>
-    </section>
+    <main class="container">
 
-    <section id="recursos" class="features">
-        <h2>Como a Sophia pode te ajudar?</h2>
-        <div class="cards-grid">
-            <div class="card">
-                <div class="card-icon">🕊️</div>
-                <h3>Discernimento Vocacional</h3>
-                <p>Testes guiados e reflexões para ajudar a compreender o chamado de Deus para a sua vida (matrimônio, vida religiosa ou sacerdócio).</p>
-            </div>
-            <div class="card">
-                <div class="card-icon">👑</div>
-                <h3>Santo de Devoção</h3>
-                <p>Responda a perguntas sobre sua personalidade e desafios atuais para descobrir santos patronos afinados com a sua jornada.</p>
-            </div>
-            <div class="card">
-                <div class="card-icon">🔥</div>
-                <h3>Superação da Frieza Espiritual</h3>
-                <p>Passos práticos, orações jaculatórias e trechos dos Doutores da Igreja para reacender o fervor na sua vida de oração.</p>
-            </div>
-        </div>
-    </section>
+        <!-- CITAÇÃO ILUSTRADA -->
+        <section class="quote-card">
+            <div class="quote-icon">📜</div>
+            <p class="quote-text">"Não vos inquieteis com coisa alguma; mas em todas as circunstâncias apresentai os vossos pedidos a Deus pela oração e pela súplica."</p>
+            <span class="quote-author">— Filipenses 4, 6</span>
+        </section>
 
-    <section id="chat" class="chat-section">
-        <div class="chat-container">
-            <div class="chat-header">
-                <h3>Conversar com a Sophia</h3>
-                <span class="status"><span class="status-dot"></span> Online</span>
+        <!-- SEÇÃO DOS SANTOS COM LINKS -->
+        <section class="santos-section">
+            <div class="section-title">
+                <span class="ornament">✨ ✠ ✨</span>
+                <h2>Galeria de Santos Patronos</h2>
+                <p class="subtitle">Clique no botão para ir à página completa com história e oração do santo</p>
             </div>
-            <div class="chat-messages" id="chatMessages">
-                <div class="message bot">
-                    <p>Salve Maria! Sou a Sophia, sua assistente virtual de apoio espiritual e vocacional. Como posso te ajudar hoje?</p>
+            
+            <div class="santos-grid">
+                <!-- São Miguel -->
+                <div class="santo-card">
+                    <div class="santo-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1548625361-185b98a0f985?auto=format&fit=crop&w=400&q=80" alt="São Miguel Arcanjo">
+                        <span class="card-badge">⚔️ Proteção</span>
+                    </div>
+                    <h3>São Miguel</h3>
+                    <p>Príncipe da Milícia Celeste</p>
+                    <a href="miguel.html" class="btn-santo">Ver História ➔</a>
+                </div>
+
+                <!-- Santa Teresinha -->
+                <div class="santo-card">
+                    <div class="santo-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=400&q=80" alt="Santa Teresinha">
+                        <span class="card-badge">🌹 Pequena Via</span>
+                    </div>
+                    <h3>Santa Teresinha</h3>
+                    <p>Doutora do Amor e da Confiança</p>
+                    <a href="teresinha.html" class="btn-santo">Ver História ➔</a>
+                </div>
+
+                <!-- Santo Agostinho -->
+                <div class="santo-card">
+                    <div class="santo-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=400&q=80" alt="Santo Agostinho">
+                        <span class="card-badge">📖 Sabedoria</span>
+                    </div>
+                    <h3>Santo Agostinho</h3>
+                    <p>Doutor da Graça e Conversão</p>
+                    <a href="agostinho.html" class="btn-santo">Ver História ➔</a>
+                </div>
+
+                <!-- São Bento -->
+                <div class="santo-card">
+                    <div class="santo-img-wrap">
+                        <img src="https://images.unsplash.com/photo-1519817650390-64a93db51149?auto=format&fit=crop&w=400&q=80" alt="São Bento">
+                        <span class="card-badge">🛡️ Proteção</span>
+                    </div>
+                    <h3>São Bento</h3>
+                    <p>Pai do Monacato Ocidental</p>
+                    <a href="bento.html" class="btn-santo">Ver História ➔</a>
                 </div>
             </div>
-            <div class="chat-input-area">
-                <input type="text" id="userInput" placeholder="Escreva sua dúvida ou desabafo..." onkeypress="checkEnter(event)">
-                <button onclick="sendMessage()">Enviar</button>
-            </div>
-        </div>
-    </section>
+        </section>
 
-    <footer>
-        <p>&copy; 2026 Sophia IA Católica. Projeto voltado para apoio pessoal e discernimento espiritual.</p>
+        <!-- CARTÕES DE INSPIRAÇÃO RÁPIDA -->
+        <section class="inspiration-grid">
+            <div class="insp-card pink">
+                <span class="insp-icon">🕊️</span>
+                <h4>Discernimento Vocacional</h4>
+                <p>Descubra o chamado de Deus para sua vida através do silêncio e da oração.</p>
+            </div>
+            <div class="insp-card gold">
+                <span class="insp-icon">🕯️</span>
+                <h4>Frieza Espiritual</h4>
+                <p>Encontre consolo e perseverança para os dias de aridez na fé.</p>
+            </div>
+            <div class="insp-card blue">
+                <span class="insp-icon">📿</span>
+                <h4>Santo Rosário</h4>
+                <p>Medite os mistérios da vida de Cristo pelas mãos de Maria.</p>
+            </div>
+        </section>
+
+        <!-- CHAT EXPANSÍVEL DA SOPHIA -->
+        <section class="chat-section">
+            <!-- Botão Principal de Abrir o Chat -->
+            <button class="chat-toggle-btn" onclick="toggleChat()">
+                <div class="avatar-circle">S</div>
+                <span>CONVERSAR COM SOPHIA (IA CATÓLICA)</span>
+                <span class="toggle-icon" id="toggleIcon">▼</span>
+            </button>
+
+            <!-- Caixa de Chat (Escondida por padrão até clicar) -->
+            <div class="chat-box" id="chatBox">
+                <div class="chat-header">
+                    <div class="chat-header-info">
+                        <div class="avatar-circle">S</div>
+                        <div>
+                            <span class="chat-title">Sophia IA</span>
+                            <span class="chat-subtitle">Orientação & Acolhimento Católica</span>
+                        </div>
+                    </div>
+                    <span class="badge-online">Online ✨</span>
+                </div>
+                
+                <div class="chat-messages" id="chatMessages">
+                    <div class="message bot">
+                        Salve Maria! 🌹 Sou a Sophia, sua assistente virtual católica. Como posso te acompanhar hoje? Fique à vontade para perguntar sobre vocação, santos ou pedir conselhos espirituais!
+                    </div>
+                </div>
+
+                <div class="chat-input-area">
+                    <input type="text" id="userInput" placeholder="Escreva seu pedido, dúvida ou desabafo..." onkeypress="checkEnter(event)">
+                    <button onclick="enviarMensagem()">Enviar ✨</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="footer">
+        <p>✠ <em>Ad Majorem Dei Gloriam</em> — Tudo para a Maior Glória de Deus ✠</p>
     </footer>
 
     <script src="script.js"></script>
