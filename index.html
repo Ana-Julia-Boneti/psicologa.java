@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia - Orientação Espiritual & Vocacional</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Plus+Jakarta+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">
+            <span>┼</span> Sophia IA
+        </div>
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#recursos">Recursos</a>
+            <a href="#chat">Conversar</a>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Acolhimento Humano e Direção Espiritual com IA</h1>
+            <p>Descubra sua vocação, conecte-se com a vida dos santos e encontre forças para superar momentos de frieza espiritual à luz da fé católica.</p>
+            <a href="#chat" class="btn-primary">Iniciar Orientação</a>
+        </div>
+    </section>
+
+    <section id="recursos" class="features">
+        <h2>Como a Sophia pode te ajudar?</h2>
+        <div class="cards-grid">
+            <div class="card">
+                <div class="card-icon">🕊️</div>
+                <h3>Discernimento Vocacional</h3>
+                <p>Testes guiados e reflexões para ajudar a compreender o chamado de Deus para a sua vida (matrimônio, vida religiosa ou sacerdócio).</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">👑</div>
+                <h3>Santo de Devoção</h3>
+                <p>Responda a perguntas sobre sua personalidade e desafios atuais para descobrir santos patronos afinados com a sua jornada.</p>
+            </div>
+            <div class="card">
+                <div class="card-icon">🔥</div>
+                <h3>Superação da Frieza Espiritual</h3>
+                <p>Passos práticos, orações jaculatórias e trechos dos Doutores da Igreja para reacender o fervor na sua vida de oração.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="chat" class="chat-section">
+        <div class="chat-container">
+            <div class="chat-header">
+                <h3>Conversar com a Sophia</h3>
+                <span class="status"><span class="status-dot"></span> Online</span>
+            </div>
+            <div class="chat-messages" id="chatMessages">
+                <div class="message bot">
+                    <p>Salve Maria! Sou a Sophia, sua assistente virtual de apoio espiritual e vocacional. Como posso te ajudar hoje?</p>
+                </div>
+            </div>
+            <div class="chat-input-area">
+                <input type="text" id="userInput" placeholder="Escreva sua dúvida ou desabafo..." onkeypress="checkEnter(event)">
+                <button onclick="sendMessage()">Enviar</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 Sophia IA Católica. Projeto voltado para apoio pessoal e discernimento espiritual.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
